@@ -1,12 +1,7 @@
-﻿using NorthWind_UM.Models;
+﻿using BenchmarkDotNet.Running;
+using NorthWind_UM.Benchmark;
 
 
+       
+BenchmarkRunner.Run<Benchmark1>();
 
-NorthwindContext context = new NorthwindContext();
-
-
-foreach (Customer C in context.Customers)
-{
-    Console.WriteLine($"Name: {C.ContactName}");
-}
-Console.ReadLine();

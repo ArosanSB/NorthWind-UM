@@ -62,6 +62,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Views\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="dbo\BenchMarking Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Employees.sql" />
@@ -96,5 +97,8 @@
     <Build Include="dbo\Stored Procedures\CustOrdersDetail2.sql" />
     <Build Include="dbo\Stored Procedures\CustomerOrderHistory.sql" />
     <Build Include="dbo\Stored Procedures\TOP10ExpProducts.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbo\BenchMarking Scripts\Benchmarking1.sql" />
   </ItemGroup>
 </Project>
