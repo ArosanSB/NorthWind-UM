@@ -1,0 +1,13 @@
+Time (ns)
+22000000
+1000000
+0
+0
+0
+0
+0
+0
+0
+0
+Mean Time: 2300000 ns
+Standard Deviation: 6929005,059249929 ns

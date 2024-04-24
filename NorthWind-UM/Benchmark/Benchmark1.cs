@@ -5,14 +5,22 @@ namespace NorthWind_UM.Benchmark
 {
     public class Benchmark1
     {
+
         [Benchmark]
-        public void Execute()
+        public List<Customer> getCustomers()
         {
             NorthwindContext context = new NorthwindContext();
+            List<Customer> customersExecute = new List<Customer>();
             foreach (Customer customer in context.Customers)
             {
-                Console.WriteLine(customer.ContactName);
+                customersExecute.Add(customer);
+               // Console.WriteLine(customer.ContactName);
             }
+            return customersExecute;
         }
+
+
+
+
     }
 }

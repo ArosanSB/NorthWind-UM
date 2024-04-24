@@ -62,7 +62,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Views\" />
     <Folder Include="dbo\Stored Procedures\" />
-    <Folder Include="dbo\BenchMarking Scripts" />
+    <Folder Include="dbo\BenchMark Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Employees.sql" />
@@ -99,6 +99,7 @@
     <Build Include="dbo\Stored Procedures\TOP10ExpProducts.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="dbo\BenchMarking Scripts\Benchmarking1.sql" />
+    <None Include="dbo\BenchMark Scripts\Benchmarking1.sql" />
+    <None Include="dbo\NorthWindData.sql" />
   </ItemGroup>
 </Project>
